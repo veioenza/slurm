@@ -589,6 +589,7 @@ AC_CONFIG_FILES([Makefile
 		 src/plugins/select/other/Makefile
 		 src/plugins/site_factor/Makefile
 		 src/plugins/site_factor/none/Makefile
+		 src/plugins/site_factor/xfactor/Makefile
 		 src/plugins/slurmctld/Makefile
 		 src/plugins/slurmctld/nonstop/Makefile
 		 src/plugins/switch/Makefile
