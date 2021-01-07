@@ -67,7 +67,7 @@
  * (major.minor.micro combined into a single number).
  */
 const char	*plugin_name		= "xfactor site_factor plugin";
-const char	*plugin_type		= "site_factor/xfactor";
+const char	plugin_type[]		= "site_factor/xfactor";
 const uint32_t	plugin_version		= SLURM_VERSION_NUMBER;
 
 uint32_t xfactor_min_time = 1;		/* Minimum time limit in minutes. */
