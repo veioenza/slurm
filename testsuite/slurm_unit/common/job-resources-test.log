@@ -1,0 +1,38 @@
+	NOTE: Testing job_resources_or
+	PASSED: node_bitmap count good
+	PASSED: node 1 set
+	PASSED: node 4 set
+	PASSED: node 6 set
+	PASSED: cores_per_socket[0] value
+	PASSED: sockets_per_node[0] value
+	PASSED: sock_core_rep_count[0] value
+	PASSED: cores_per_socket[0] value
+	PASSED: sockets_per_node[0] value
+	PASSED: sock_core_rep_count[0] value
+	PASSED: cores_per_socket[0] value
+	PASSED: sockets_per_node[0] value
+	PASSED: sock_core_rep_count[0] value
+	PASSED: core_bitmap count good
+	PASSED: core 1 set
+	PASSED: core 6 set
+	PASSED: core 7 set
+	PASSED: core 8 set
+	PASSED: core 12 set
+	PASSED: core 22 set
+	PASSED: core 25 set
+	PASSED: core 27 set
+	NOTE: Testing job_resources_and
+	PASSED: node_bitmap count good
+	PASSED: node 0 set
+	PASSED: node 2 set
+	PASSED: node 4 unset
+	PASSED: cores_per_socket[0] value
+	PASSED: sockets_per_node[0] value
+	PASSED: core_bitmap count good
+	PASSED: core 8 set
+	PASSED: core 15 set
+
+Totals:
+	#passed:		31
+	#real failed:		0
+PASS job-resources-test (exit status: 0)

@@ -1,0 +1,14 @@
+log-test: error: testing with unitialized log.
+log-test: error: testing error
+log-test: testing info 
+log-test: testing verbose
+log-test: debug:  testing debug level 1
+log-test: debug2: testing debug level 2
+log-test: testing print of null pointer: (nil) = (null)
+log-test: testing double: 9876543210.0123463 int: 67890 string `test string'
+log-test: testing unsigned: 1234   int: -0067890
+log-test: in parent 446423
+log-test: error: bad_func: Invalid argument
+log-test: in child 446424
+log-test: in child after log reinit
+PASS log-test (exit status: 0)

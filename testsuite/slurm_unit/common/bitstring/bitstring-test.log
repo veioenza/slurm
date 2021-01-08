@@ -1,0 +1,70 @@
+	NOTE: Testing static decl
+	PASSED: bit 9 set
+	PASSED: bit 12 not set
+	PASSED: bit 14 set
+	NOTE: Testing basic vixie functions
+	PASSED: bit 9 set
+	PASSED: bit 12 not set
+	PASSED: bit 14 set
+	PASSED: first bit set = 9 
+	PASSED: last bit set = 14
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: ffs
+	PASSED: ffc
+	PASSED: ffc
+	NOTE: Testing and/or/not
+	PASSED: and
+	PASSED: and
+	PASSED: or
+	PASSED: or
+	PASSED: or
+	PASSED: or
+	PASSED: not
+	PASSED: not
+	NOTE: testing bit selection
+	PASSED: pick
+	PASSED: pick
+	PASSED: pick
+	PASSED: pick
+	PASSED: pick
+	NOTE: Testing realloc
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	NOTE: Testing bit_fmt
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	NOTE: Testing bit_nffc/bit_nffs
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	PASSED: bitstring
+	NOTE: Testing bit_unfmt
+	PASSED: bitstring
+	PASSED: bitstring
+
+Totals:
+	#passed:		57
+	#real failed:		0
+PASS bitstring-test (exit status: 0)

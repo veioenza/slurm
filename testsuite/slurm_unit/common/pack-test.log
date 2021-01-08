@@ -1,0 +1,14 @@
+wrote 66 bytes
+	PASSED: un/pack16
+	PASSED: un/pack32
+	PASSED: un/pack double as a uint64
+	PASSED: un/packstr_ptr
+	PASSED: un/packstr_xmalloc
+	PASSED: un/packstr of null string.
+	PASSED: un/packstr of string literal
+	PASSED: un/packstr of string "" 
+
+Totals:
+	#passed:		8
+	#real failed:		0
+PASS pack-test (exit status: 0)

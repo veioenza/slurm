@@ -36,6 +36,7 @@
 
 #define _GNU_SOURCE
 
+#include "src/slurmctld/read_config.h"
 #include "src/common/slurm_xlator.h"
 #include "src/common/log.h"
 
@@ -79,7 +80,7 @@ static void _parse_parameters(void)
 	char *params = NULL, *tmp_ptr = NULL;
 	uint32_t weight = 0, min_time = 0, max = 0;
 
-	params = slurm_get_priority_site_factor_params();
+	params = slurm_conf.site_factor_params;
 
 	if (!params) {
 		error("%s: PrioritySiteFactorParameters not set.", plugin_type);
